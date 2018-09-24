@@ -17,3 +17,4 @@ jobs:
   - get: ubuntu
   - task: uname-a
     file: uname-repo/tasks/uname.yml
+    image: ubuntu

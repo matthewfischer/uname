@@ -1,6 +1,7 @@
 ---
 platform: linux
 
+# we're overriding this in the pipeline so it won't use alpine
 image_resource:
   type: docker-image
   source: {repository: alpine}
